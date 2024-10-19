@@ -1,0 +1,151 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #e3f2fd, #bbdefb);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition effects */
+}
+
+.container:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  color: #1e88e5;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin: 1em 0;
+  color: #424242;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+  transition: background-color 0.3s ease; /* Add transition for paragraph hover */
+}
+
+#data {
+  font-size: 1.5em;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease; /* Add transition for #data hover */
+}
+
+/* Hover effect for data display */
+#data:hover {
+  background-color: rgba(30, 136, 229, 0.1); /* Light blue on hover */
+}
+
+.station-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.station-table th,
+.station-table td {
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+  transition: background-color 0.3s ease; /* Add transition for table cells */
+}
+
+.station-table th {
+  background-color: #f5f5f5;
+  color: #1e88e5;
+}
+
+.station-table tr:hover {
+  background-color: rgba(30, 136, 229, 0.1); /* Light blue on row hover */
+}
+
+.normal-capacity {
+  color: green;
+  background-color: rgba(76, 175, 80, 0.1);
+  padding: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Add transition for normal capacity */
+}
+
+.normal-capacity:hover {
+  background-color: rgba(76, 175, 80, 0.2); /* Darken on hover */
+}
+
+.over-capacity {
+  color: red;
+  background-color: rgba(255, 0, 0, 0.1);
+  padding: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Add transition for over capacity */
+}
+
+.over-capacity:hover {
+  background-color: rgba(255, 0, 0, 0.2); /* Darken on hover */
+}
+
+.safe-time {
+  color: green;
+  font-weight: bold;
+}
+
+.warning-time {
+  color: red;
+  font-weight: bold;
+}
+
+.station-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.station-table th,
+.station-table td {
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.station-table th {
+  background-color: #f5f5f5;
+  color: #1e88e5;
+}
+
+.station-table tr:hover {
+  background-color: rgba(30, 136, 229, 0.1); /* Light blue on row hover */
+}
+
+.station-table td {
+  font-size: 1.2em;
+  transition: background-color 0.3s ease; /* Add smooth hover transition */
+}
+
+
+
+
+
+
+
+
+
+
+
